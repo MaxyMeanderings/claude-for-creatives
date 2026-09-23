@@ -1,0 +1,1 @@
+var e=`/claude-for-creatives/assets/creatives/qr/qr-slides.svg`;export{e as t};

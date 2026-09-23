@@ -1,0 +1,1 @@
+var e=`/claude-for-creatives/assets/szd-logo.png`;export{e as t};

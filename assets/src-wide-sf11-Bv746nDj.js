@@ -1,0 +1,1 @@
+var e=`/claude-for-creatives/assets/creatives/src-wide-sf11.jpg`;export{e as t};
