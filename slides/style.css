@@ -1,0 +1,251 @@
+/* Beyond Chat · Build with Claude Code — deck styling. SZD Labs palette: navy ground, cyan accent. */
+:root{
+  --ink:#f5f7fa; --muted:#a3abb8; --dim:#6f7886; --line:#2b2f45;
+  --ground:#0f0f1a; --panel:#171a2b; --panel-2:#1e2236;
+  --accent:#00b4d8; --accent-2:#48cae4; --accent-ink:#06121a;
+}
+.slidev-layout{background:var(--ground);color:var(--ink);font-family:"Source Code Pro","Cascadia Mono",Consolas,monospace;padding:64px 72px 56px 210px;position:relative}
+.slidev-layout.closing,.slidev-layout.presenters-slide{padding-left:210px}
+.slidev-layout h1{font-size:2.35rem;line-height:1.12;font-weight:600;letter-spacing:-.01em;margin:0 0 22px;color:var(--ink)}
+.slidev-layout h2{font-size:1.5rem;margin:0 0 12px;font-weight:600}
+.slidev-layout h3{font-size:1.05rem;margin:0 0 8px;font-weight:600;color:var(--accent-2)}
+.slidev-layout p,.slidev-layout li{font-size:.98rem;line-height:1.5;color:var(--ink)}
+.slidev-layout a{color:var(--accent-2);text-decoration:none}
+.slidev-layout a:hover{text-decoration:underline}
+.slidev-layout code,.slidev-layout pre{font-family:inherit}
+
+.slidev-layout .slide-number{position:absolute;top:26px;left:210px;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.slidev-layout .source{position:absolute;left:210px;right:72px;bottom:22px;font-size:.68rem;color:var(--dim);line-height:1.4}
+.slidev-layout .source a{color:var(--dim);text-decoration:underline}
+.slidev-layout .takeaway{margin-top:22px;padding:10px 16px;border-left:3px solid var(--accent);background:rgba(0,180,216,.08);color:var(--ink);font-size:1rem;line-height:1.45}
+.slidev-layout .tagline{margin-top:10px;color:var(--accent-2);font-size:1.05rem}
+.slidev-layout .hero-sub{font-size:1.08rem;line-height:1.5;color:var(--ink);margin:6px 0 14px;max-width:60ch}
+.slidev-layout .cover-mark{position:absolute;top:26px;right:72px;width:120px;opacity:.9}
+.slidev-layout .cover-mark img{width:100%}
+.slidev-layout .sponsor-note{display:none}
+
+.slidev-layout .two{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+.slidev-layout .three{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;align-items:start}
+.slidev-layout .four{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;align-items:start}
+.slidev-layout section{border-top:2px solid var(--accent);padding-top:12px}
+.slidev-layout .four section p{font-size:.88rem}
+.slidev-layout section b{color:var(--accent-2)}
+
+.slidev-layout label,.slidev-layout .eyebrow{display:block;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-2);margin-bottom:8px}
+.slidev-layout .artifact,.slidev-layout .terminal{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.slidev-layout .artifact p,.slidev-layout .artifact li{font-size:.92rem;line-height:1.45;margin:0 0 4px}
+.slidev-layout .artifact ul{margin:6px 0 0;padding-left:18px}
+.slidev-layout .artifact blockquote{margin:0;font-size:1.05rem;line-height:1.5;color:var(--ink);border:0;padding:0}
+.slidev-layout .artifact pre{margin:0;font-size:.9rem;line-height:1.45;background:transparent;color:var(--ink);white-space:pre}
+.slidev-layout .terminal{background:#0b0d16}
+.slidev-layout .terminal-label{font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin-bottom:8px}
+.slidev-layout .terminal pre{margin:0;font-size:.95rem;line-height:1.5;background:transparent;color:var(--ink);white-space:pre-wrap}
+.slidev-layout .terminal + .terminal,.slidev-layout .artifact + .terminal{margin-top:14px}
+.slidev-layout .build-strip{font-size:1.25rem;color:var(--accent-2);margin:4px 0 22px;letter-spacing:.02em}
+.slidev-layout .checkpoint-help{margin-top:12px;font-size:.85rem;color:var(--muted)}
+
+.slidev-layout .conversation{display:grid;gap:14px}
+.slidev-layout .conversation>div{border-radius:12px;padding:14px 18px;border:1px solid var(--line)}
+.slidev-layout .student{background:var(--panel-2)}
+.slidev-layout .coach{background:rgba(0,180,216,.08);border-color:rgba(0,180,216,.35)}
+.slidev-layout .conversation p{margin:0 0 6px;font-size:1rem;line-height:1.5}
+.slidev-layout .test-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.slidev-layout .test-grid section{border:0;padding:0}
+.slidev-layout .test-grid p{margin:0 0 10px;font-size:.92rem;line-height:1.45;padding-left:12px;border-left:2px solid var(--line)}
+
+.slidev-layout .exit p{font-size:1.2rem;line-height:1.6;margin:0 0 8px;color:var(--ink)}
+.slidev-layout .exit p::before{content:"→ ";color:var(--accent)}
+
+.slidev-layout .presenters{display:grid;gap:24px;max-width:760px}
+.slidev-layout .presenter{display:grid;grid-template-columns:120px 1fr;gap:22px;align-items:center}
+.slidev-layout .presenter img{width:120px;height:120px;object-fit:cover;border-radius:50%;border:2px solid var(--accent)}
+.slidev-layout .presenter h3{font-size:1.3rem;color:var(--ink);margin:0 0 4px}
+.slidev-layout .presenter .role{color:var(--accent-2);font-size:.9rem;margin:0 0 8px}
+.slidev-layout .presenter p{margin:0;font-size:.92rem;color:var(--muted)}
+.slidev-layout .intro-linkedin{margin-top:18px;font-size:1rem}
+.slidev-layout .connect{display:grid;grid-template-columns:140px 1fr;gap:26px;align-items:center;max-width:760px}
+.slidev-layout .speaker-photo{width:140px;height:140px;object-fit:cover;border-radius:50%;border:2px solid var(--accent)}
+.slidev-layout .connect h3{font-size:1.4rem;color:var(--ink);margin:0 0 6px}
+.slidev-layout .connect p{margin:0 0 6px;font-size:1.05rem}
+
+.slidev-layout .links{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:6px}
+.slidev-layout .links section{border-top:2px solid var(--accent);padding-top:14px}
+.slidev-layout .links h3{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin-bottom:10px}
+.slidev-layout .links a{display:block;font-size:1.28rem;line-height:1.35;color:var(--accent-2);word-break:break-all}
+.slidev-layout .links p{margin:10px 0 0;color:var(--muted);font-size:.92rem}
+
+.slidev-layout .copilot-content{display:grid;grid-template-columns:1fr 240px;gap:26px;align-items:start}
+.slidev-layout .copilot-content .two{grid-template-columns:1fr 1fr;gap:22px}
+.slidev-layout .copilot-content h3{font-size:1rem}
+.slidev-layout .copilot-content p{font-size:.9rem;margin:0 0 6px}
+.slidev-layout .post-thumbnail{display:block;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel)}
+.slidev-layout .post-thumbnail img{width:100%;display:block}
+.slidev-layout .post-thumbnail span{display:block;font-size:.7rem;color:var(--dim);padding:6px 10px;text-align:center}
+
+.slidev-layout.interface-slide h1{margin-bottom:14px}
+.slidev-layout .interface-image{display:block;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#0b0d16;max-height:300px}
+.slidev-layout .interface-image img{width:100%;max-height:300px;object-fit:contain;object-position:top;display:block}
+.slidev-layout .interface-image span{display:block;font-size:.7rem;color:var(--dim);text-align:center;padding:4px 0}
+.slidev-layout .interface-caption{margin:12px 0 0;font-size:.95rem;line-height:1.45;color:var(--ink);max-width:70ch}
+
+/* SZD Labs brand assets */
+.slidev-layout .cover-szd{position:absolute;left:210px;bottom:64px;height:78px;width:auto}
+.slidev-layout .connect-szd{position:absolute;right:72px;top:150px;height:64px;width:auto;opacity:.95}
+.slidev-layout .source{right:230px}
+
+/* presenter focus list */
+.slidev-layout .presenter ul.focus{margin:8px 0 0;padding-left:0;list-style:none;display:grid;gap:4px}
+.slidev-layout .presenter ul.focus li{font-size:.92rem;color:var(--ink);line-height:1.4;padding-left:16px;position:relative}
+.slidev-layout .presenter ul.focus li::before{content:"";position:absolute;left:0;top:.55em;width:8px;height:2px;background:var(--accent)}
+
+/* QR codes · generated by aurora-ops/assets/bit-404/make-qr.py, SVGs in public/assets/bit-404/qr */
+.slidev-layout .qr{margin:0;display:grid;gap:6px;justify-items:center}
+.slidev-layout .qr img{width:100%;height:auto;display:block;border-radius:8px;background:#fff}
+.slidev-layout .qr span{font-size:.64rem;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);text-align:center;line-height:1.3}
+.slidev-layout .qr-side{position:absolute;right:72px;top:118px;width:160px;display:grid;gap:20px}
+.slidev-layout.presenters-slide .takeaway,.slidev-layout.presenters-slide .intro-linkedin{max-width:740px}
+.slidev-layout .qr-row{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:14px}
+.slidev-layout .connect-qr{display:grid;grid-template-columns:repeat(2,190px);gap:28px;margin-top:26px}
+.slidev-layout .links{gap:40px}
+.slidev-layout .links .qr{width:236px;margin:2px 0 14px}
+
+/* Larger type on the four QR slides (2, 25, 26, 27) so the text fills the slide */
+.slidev-layout .qr span{font-size:.72rem}
+/* slide 2 · Your guide today */
+.slidev-layout.presenters-slide .presenters{max-width:776px}
+.slidev-layout.presenters-slide .presenter{grid-template-columns:160px 1fr;gap:26px}
+.slidev-layout.presenters-slide .presenter img{width:160px;height:160px}
+.slidev-layout.presenters-slide .presenter h3{font-size:1.8rem;margin-bottom:6px}
+.slidev-layout.presenters-slide .presenter .role{font-size:1.1rem;margin-bottom:10px}
+.slidev-layout.presenters-slide .presenter p{font-size:1.2rem}
+.slidev-layout.presenters-slide .presenter ul.focus{gap:6px}
+.slidev-layout.presenters-slide .presenter ul.focus li{font-size:1.2rem;line-height:1.45;padding-left:18px}
+.slidev-layout.presenters-slide .takeaway{font-size:1.22rem;margin-top:28px;max-width:760px}
+.slidev-layout.presenters-slide .intro-linkedin{font-size:1.28rem;margin-top:24px}
+.slidev-layout.presenters-slide .qr-side{width:200px;gap:22px}
+/* slide 25 · Run the full loop tonight */
+.slidev-layout.qr-slide .two h3{font-size:1.35rem}
+.slidev-layout.qr-slide .two p{font-size:1.2rem}
+.slidev-layout.qr-slide .takeaway{font-size:1.2rem}
+/* slide 26 · Stay connected */
+.slidev-layout.qr-slide .connect{grid-template-columns:180px 1fr;gap:32px;max-width:860px}
+.slidev-layout.qr-slide .speaker-photo{width:180px;height:180px}
+.slidev-layout.qr-slide .connect h3{font-size:2.05rem;margin-bottom:8px}
+.slidev-layout.qr-slide .connect p{font-size:1.38rem;margin-bottom:8px}
+.slidev-layout.qr-slide .connect-qr{grid-template-columns:repeat(2,264px);gap:36px;margin-top:28px}
+.slidev-layout.qr-slide .connect-qr .qr span{font-size:.88rem}
+/* slide 27 · Keep building. Take the links. */
+.slidev-layout.qr-slide .links{gap:48px}
+.slidev-layout.qr-slide .links h3{font-size:.95rem}
+.slidev-layout.qr-slide .links .qr{width:270px;margin:4px 0 16px}
+.slidev-layout.qr-slide .links .qr span{font-size:.82rem}
+.slidev-layout.qr-slide .links a{font-size:1.5rem}
+.slidev-layout.qr-slide .links p{font-size:1.1rem;margin-top:12px}
+
+/* slide 4 · Copilot vs autopilot: the post thumbnail sets the row height, so the two columns
+   get larger type and looser spacing to fill the space beside it; the thumbnail narrows a little */
+.slidev-layout .copilot-content{grid-template-columns:1fr 200px;gap:30px}
+.slidev-layout .copilot-content .two{gap:30px}
+.slidev-layout .copilot-content h3{font-size:1.4rem;margin-bottom:12px}
+.slidev-layout .copilot-content p{font-size:1.3rem;line-height:1.5;margin:0 0 16px}
+.slidev-layout.copilot-slide .takeaway{font-size:1.2rem;margin-top:16px;padding:12px 18px}
+
+/* Deck-wide type scale (Sept 22): every slide at the density of slide 4. Base body 0.98rem → 1.25rem,
+   panels and terminals up in step, run-frame images taller. Later rules win over the originals above. */
+.slidev-layout h2{font-size:1.7rem}
+.slidev-layout h3{font-size:1.35rem;margin-bottom:10px}
+.slidev-layout p,.slidev-layout li{font-size:1.25rem;line-height:1.5}
+.slidev-layout .slide-number{font-size:.8rem}
+.slidev-layout .source{font-size:.78rem}
+.slidev-layout .takeaway{font-size:1.2rem;margin-top:26px;padding:12px 18px}
+.slidev-layout .tagline{font-size:1.3rem;margin-top:14px}
+.slidev-layout .hero-sub{font-size:1.3rem;max-width:62ch}
+.slidev-layout .three{gap:30px}
+.slidev-layout .four section p{font-size:1.08rem}
+.slidev-layout label,.slidev-layout .eyebrow{font-size:.78rem;margin-bottom:10px}
+.slidev-layout .artifact,.slidev-layout .terminal{padding:18px 22px}
+.slidev-layout .artifact p,.slidev-layout .artifact li{font-size:1.14rem;line-height:1.5;margin:0 0 6px}
+.slidev-layout .artifact blockquote{font-size:1.4rem;line-height:1.5}
+.slidev-layout .artifact pre{font-size:1.1rem;line-height:1.5}
+.slidev-layout .terminal-label{font-size:.78rem;margin-bottom:10px}
+.slidev-layout .terminal pre{font-size:1.18rem;line-height:1.5}
+.slidev-layout .build-strip{font-size:1.5rem;margin:6px 0 26px}
+.slidev-layout .checkpoint-help{font-size:1.05rem;margin-top:14px}
+.slidev-layout .conversation p{font-size:1.25rem;margin-bottom:8px}
+.slidev-layout .test-grid p{font-size:1.12rem;line-height:1.45;margin-bottom:12px}
+.slidev-layout .exit p{font-size:1.7rem;line-height:1.6;margin-bottom:12px}
+.slidev-layout .interface-image,.slidev-layout .interface-image img{max-height:380px}
+.slidev-layout .interface-image span{font-size:.8rem}
+.slidev-layout .interface-caption{font-size:1.2rem;margin-top:14px;max-width:80ch}
+.slidev-layout .post-thumbnail span{font-size:.8rem}
+
+/* Sparse slides: push the short-content components further so they fill like slide 4 */
+.slidev-layout .takeaway{font-size:1.3rem;margin-top:30px;padding:14px 20px}
+.slidev-layout .three{gap:36px}
+.slidev-layout .three h3{font-size:1.6rem;margin-bottom:12px}
+.slidev-layout .three section p{font-size:1.45rem;line-height:1.5}
+.slidev-layout .build-strip{font-size:1.7rem;margin:8px 0 30px}
+.slidev-layout .conversation{gap:18px}
+.slidev-layout .conversation>div{padding:18px 22px}
+.slidev-layout .conversation p{font-size:1.45rem;line-height:1.5}
+.slidev-layout .terminal pre{font-size:1.4rem;line-height:1.5}
+.slidev-layout .terminal + .terminal,.slidev-layout .artifact + .terminal{margin-top:18px}
+.slidev-layout .checkpoint-help{font-size:1.2rem;margin-top:16px}
+.slidev-layout .artifact blockquote{font-size:1.75rem;line-height:1.5}
+.slidev-layout .artifact pre{font-size:1.3rem}
+.slidev-layout .test-grid p{font-size:1.25rem;line-height:1.45}
+.slidev-layout .exit p{font-size:2.1rem;line-height:1.5;margin-bottom:22px}
+.slidev-layout .exit + .tagline,.slidev-layout .closing .tagline{font-size:1.5rem;margin-top:22px}
+.slidev-layout .interface-caption{font-size:1.3rem}
+.slidev-layout.brief-slide .artifact p,.slidev-layout.brief-slide .artifact li{font-size:1.22rem;margin-bottom:6px}
+.slidev-layout.brief-slide .artifact ul{margin-top:10px}
+.slidev-layout.repair-slide .artifact p{font-size:1.55rem}
+.slidev-layout.repair-slide .two h3{font-size:1.75rem}
+.slidev-layout.repair-slide .two p{font-size:1.6rem}
+
+/* slide 2: LinkedIn QR sits under the link text instead of in the right column */
+.slidev-layout.presenters-slide .intro-linkedin{margin-top:20px}
+.slidev-layout.presenters-slide .intro-linkedin .qr{width:170px;margin-top:12px}
+
+/* slide 5 · What we're building: four columns at the deck's body size */
+.slidev-layout.what-slide .four{gap:26px}
+.slidev-layout.what-slide .four h3{font-size:1.3rem}
+.slidev-layout.what-slide .four section p{font-size:1.18rem;line-height:1.5}
+
+/* slide 11 · Where the spec comes from: three inputs, then the engineering bar as a strip */
+.slidev-layout.spec-slide .three{gap:30px}
+.slidev-layout.spec-slide .three h3{font-size:1.2rem;margin-bottom:10px}
+.slidev-layout.spec-slide .three section p{font-size:1rem;line-height:1.4}
+.slidev-layout.spec-slide .bar{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:14px}
+.slidev-layout.spec-slide .bar>div{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.slidev-layout.spec-slide .bar b{display:block;color:var(--accent-2);font-size:1.02rem;line-height:1.3;margin-bottom:4px}
+.slidev-layout.spec-slide .bar span{display:block;font-size:.88rem;line-height:1.3;color:var(--ink)}
+.slidev-layout.spec-slide .bar a.src{display:block;margin-top:6px;font-size:.7rem;line-height:1.3;color:var(--muted);text-decoration:underline;text-underline-offset:2px}
+.slidev-layout.spec-slide .takeaway{font-size:1.15rem;margin-top:14px;padding:11px 18px}
+
+/* Claude for creatives (Sept 23): premiere-ops worked example. Same scale as the Sept 22 deck; new pieces only. */
+.slidev-layout .strip{margin:16px 0 0}
+.slidev-layout .strip img{width:100%;display:block;border-radius:10px;border:1px solid var(--line)}
+.slidev-layout .strip figcaption{font-size:.78rem;color:var(--dim);margin-top:6px;text-align:center}
+.slidev-layout.what-slide .four section p{font-size:1.12rem}
+.slidev-layout .frame-pair{display:flex;gap:26px;align-items:flex-start}
+.slidev-layout .frame-pair figure{margin:0}
+.slidev-layout .frame-pair img{height:352px;width:auto;display:block;border-radius:10px;border:1px solid var(--line);background:#0b0d16}
+.slidev-layout .frame-pair figcaption{font-size:.78rem;color:var(--dim);margin-top:6px;text-align:center}
+.slidev-layout.spec-slide .bar span.src{display:block;margin-top:6px;font-size:.7rem;line-height:1.3;color:var(--muted)}
+.slidev-layout .interface-image.plain{max-height:360px}
+.slidev-layout .interface-image.plain img{max-height:360px}
+.slidev-layout.run-slide .artifact blockquote{font-size:1.45rem}
+.slidev-layout.run-slide .artifact blockquote + blockquote{margin-top:14px}
+.slidev-layout.run-slide .terminal pre{font-size:1.12rem}
+.slidev-layout.run-slide .two .artifact pre{font-size:1.08rem}
+/* slide 3 · A decade in production first: three columns at a size that fits three short paragraphs */
+.slidev-layout.bio-slide .three section p{font-size:1.24rem;line-height:1.5}
+.slidev-layout.bio-slide .takeaway{margin-top:20px;font-size:1.18rem;padding:12px 18px}
+/* slide 6 · The tools we're using today: three logo tiles side by side */
+.slidev-layout .tools{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;margin-top:22px}
+.slidev-layout .tool{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:30px 22px 24px;text-align:center}
+.slidev-layout .tool img{height:140px;width:auto;max-width:100%;margin:0 auto 22px;display:block;object-fit:contain}
+.slidev-layout .tool h3{font-size:1.5rem;color:var(--ink);margin-bottom:8px}
+.slidev-layout .tool p{font-size:1.12rem;line-height:1.45;color:var(--muted);margin:0}
+.slidev-layout.tools-slide .takeaway{margin-top:24px}

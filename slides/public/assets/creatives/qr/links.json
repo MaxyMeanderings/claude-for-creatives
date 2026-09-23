@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "slides",
+    "title": "These slides",
+    "short": "maxymeanderings.github.io/claude-for-creatives",
+    "url": "https://maxymeanderings.github.io/claude-for-creatives/",
+    "version": 5
+  },
+  {
+    "slug": "source",
+    "title": "The source (spec, brief, retro, deck)",
+    "short": "github.com/MaxyMeanderings/claude-for-creatives",
+    "url": "https://github.com/MaxyMeanderings/claude-for-creatives",
+    "version": 5
+  },
+  {
+    "slug": "loop",
+    "title": "The loop (repo, MIT)",
+    "short": "github.com/MaxyMeanderings/claude-code-build-loop",
+    "url": "https://github.com/MaxyMeanderings/claude-code-build-loop",
+    "version": 5
+  },
+  {
+    "slug": "build-steps",
+    "title": "Follow coach/BUILD-STEPS.md",
+    "short": "\u2026/blob/main/coach/BUILD-STEPS.md",
+    "url": "https://github.com/MaxyMeanderings/claude-code-build-loop/blob/main/coach/BUILD-STEPS.md",
+    "version": 8
+  },
+  {
+    "slug": "your-brief",
+    "title": "Start from YOUR-BRIEF.md",
+    "short": "\u2026/blob/main/YOUR-BRIEF.md",
+    "url": "https://github.com/MaxyMeanderings/claude-code-build-loop/blob/main/YOUR-BRIEF.md",
+    "version": 7
+  },
+  {
+    "slug": "premiere-mcp",
+    "title": "premiere-pro-mcp (the bridge)",
+    "short": "github.com/leancoderkavy/premiere-pro-mcp",
+    "url": "https://github.com/leancoderkavy/premiere-pro-mcp",
+    "version": 5
+  },
+  {
+    "slug": "linkedin",
+    "title": "Tyler on LinkedIn",
+    "short": "linkedin.com/in/tyler-sztuka-283937123",
+    "url": "https://www.linkedin.com/in/tyler-sztuka-283937123/",
+    "version": 5
+  },
+  {
+    "slug": "szdlabs",
+    "title": "SZD Labs",
+    "short": "szdlabs.io",
+    "url": "https://szdlabs.io/",
+    "version": 2
+  },
+  {
+    "slug": "coach-deck",
+    "title": "The coach example (Sept 22 deck)",
+    "short": "maxymeanderings.github.io/claude-code-build-loop",
+    "url": "https://maxymeanderings.github.io/claude-code-build-loop/",
+    "version": 5
+  }
+]
