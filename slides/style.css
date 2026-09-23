@@ -249,3 +249,13 @@
 .slidev-layout .tool h3{font-size:1.5rem;color:var(--ink);margin-bottom:8px}
 .slidev-layout .tool p{font-size:1.12rem;line-height:1.45;color:var(--muted);margin:0}
 .slidev-layout.tools-slide .takeaway{margin-top:24px}
+/* slides 7–8 · mindset: hiring an editor; not cheap, not optimal */
+.slidev-layout.mindset-slide .two{gap:34px}
+.slidev-layout.mindset-slide .artifact blockquote{font-size:1.2rem;line-height:1.5}
+.slidev-layout.mindset-slide .two h3{font-size:1.2rem;margin-bottom:4px}
+.slidev-layout.mindset-slide .two p{font-size:1.06rem;line-height:1.5;margin:0 0 10px}
+.slidev-layout.mindset-slide .takeaway{margin-top:14px;font-size:1.2rem;padding:10px 16px}
+.slidev-layout.cost-slide .two{gap:40px}
+.slidev-layout.cost-slide .two section p{font-size:1.3rem;line-height:1.5}
+.slidev-layout.cost-slide .stat{font-size:3.4rem;line-height:1;color:var(--accent-2);font-weight:600;margin:4px 0 6px}
+.slidev-layout.cost-slide .two section p.stat-sub{font-size:1rem;color:var(--muted);margin:0 0 16px}

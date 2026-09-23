@@ -17,10 +17,10 @@ mdc: true
 rail:
   - { label: 'Start', start: 1 }
   - { label: 'Mindset', start: 5 }
-  - { label: 'Brief → spec', start: 10 }
-  - { label: 'Build', start: 14 }
-  - { label: 'Test & repair', start: 17 }
-  - { label: 'Take it home', start: 28 }
+  - { label: 'Brief → spec', start: 12 }
+  - { label: 'Build', start: 16 }
+  - { label: 'Test & repair', start: 19 }
+  - { label: 'Take it home', start: 30 }
 ---
 
 <div class="slide-number">SZD Labs · Claude for creatives</div>
@@ -115,6 +115,38 @@ class: content tools-slide
 
 <!--
 Twenty seconds. Three things and nothing else: Claude Code is the harness that runs the loop; the MCP server is an open-source bridge, a Node process plus a panel inside Premiere, that gives Claude Code a few hundred tools against the running app; Premiere is Premiere. Everything on the following slides happens across those three.
+-->
+
+---
+class: content mindset-slide
+---
+
+<div class="slide-number">SZD Labs · Claude for creatives</div>
+
+# Hiring an editor, not outsourcing the edit.
+
+<div class="two"><div class="artifact"><label>MY LEAST FAVORITE PART OF ANY PRODUCTION</label><blockquote>The rough cut. Clips into the timeline, sequencing everything together. Razor tool, razor tool, razor tool. What you learn through that is what a good edit looks like, when and where to cut, and how the audio and visual elements flow together.</blockquote></div><div><h3>Augment, not replace</h3><p>We are using AI to augment the editing production cycle. We are still in the driver’s seat. What we’re doing is offloading the rote, tedious editing work.</p><h3>Domain experience is still required</h3><p>You can’t do this without understanding editing, cinematography, and what good actually looks like.</p><h3>The judgment stays yours</h3><p>That creative discernment is something the AI is really not good at. You still need those priors, and they get wrapped into the spec and the evals as we build: your edits, your audience, your platforms.</p></div></div><div class="takeaway">This is not creative outsourcing. This is hiring an editor.</div>
+
+<div class="source">Mindset, one of two · before the build</div>
+
+<!--
+Ninety seconds, in my words. We are using AI to augment the editing production cycle; that is what this is an example of. What I want to highlight before we get into it: domain experience is still required. You can't do this without understanding editing, cinematography, and what good actually looks like. We are still in the driver's seat; we are offloading the rote, tedious work. My least favorite part of any production was the rough cut, clips into the timeline, razor tool, razor tool, razor tool. What you learn through that process is what a good edit looks like, when and where to cut, how the audio and visual flow together. That judgment is something the AI is really not good at. You still need those priors, and they get wrapped into the spec and the evals as we build it out. It is highly dependent on your own edits, what you're producing, who the audience is, what platforms it's going to. This is not creative outsourcing. This is hiring an editor.
+-->
+
+---
+class: content cost-slide
+---
+
+<div class="slide-number">SZD Labs · Claude for creatives</div>
+
+# This is not cheap. And it is not the optimal setup.
+
+<div class="two"><section><h3>Not cheap</h3><div class="stat">100,000+</div><p class="stat-sub">tokens per edit, on average, with Opus</p><p>Having the AI go through and edit clips in the timeline, even in this refined state, is expensive. At API rates, that’s expensive. That’s why the refinement loops matter: they save you on cost.</p></section><section><h3>Not optimal</h3><p>This setup is not optimal for this. Claude Code, a harness designed for coding, talking through an MCP server to a legacy editing platform, is probably the least optimal AI editing arrangement I can think of.</p><p>Again, that’s beside the point.</p></section></div><div class="takeaway">That is why these refinement loops are important. The setup is beside the point.</div>
+
+<div class="source">Mindset, two of two · the token figure is my own average across the C0828 edits</div>
+
+<!--
+Forty-five seconds, in my words. This process is not cheap. Having the AI, even in this refined state, go through and edit clips in the timeline is expensive: on average, with Opus, a hundred thousand plus tokens per edit, and at API rates that adds up. That's why these refinement loops are important; they save you on cost. And, beside the point, this setup is not optimal for this. Claude Code, a harness designed for coding, interacting through an MCP server with a legacy editing platform, is probably the least optimal AI editing arrangement I can think of. Again, beside the point. The loop is the point.
 -->
 
 ---
