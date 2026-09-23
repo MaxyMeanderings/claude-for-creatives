@@ -83,7 +83,7 @@ class: content access-slide qr-slide
 
 <Links />
 
-<div class="source">Type either one now. The loop, the brief template, and these slides live there. You will want them tonight.</div>
+<div class="source">Type either one now. The spec, the brief, the retro, and these slides live there. You will want them tonight.</div>
 
 ---
 class: content copilot-slide
